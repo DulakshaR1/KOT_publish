@@ -1,0 +1,185 @@
+<%@ master language="VB" inherits="ERMSMasterPage, App_Web_4mamu2vz" enableviewstate="true" %>
+<%@ Register src="ctrlNavgation.ascx" tagname="ctrlNavgation" tagprefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+     <link href="Styles/POS.css" rel="stylesheet" type="text/css" />
+    <link href="styles/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.min.js"></script>
+<%--<script type="text/javascript" src="Scripts/snowfall.jquery.js"></script>
+ <script type="text/javascript">
+     $(document).ready(function () {
+
+         $('#mainDiv').snowfall({
+             flakeCount: 90,
+             flakeColor: '#ffffff',
+             flakeIndex: 999999,
+             minSize: 1,
+             maxSize: 6,
+             minSpeed: 2,
+             maxSpeed: 5
+
+         });
+         $('#input1').click(function () {
+             $('#view').show();
+             $('#view').snowfall({ flakeCount: 100, maxSpeed: 10 });
+         });
+     });
+</script>--%>
+
+
+
+     <style type="text/css" >
+        .logo 
+        {
+	        height:45px;
+	        float:left;
+        }
+        h1 {
+	margin:0;
+	padding:17px 0;
+	color:#e1e9df;
+	font:bold 40px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:-2px;
+}
+h1 span {
+	color:#FFFFFF;
+}
+h1 small {
+	display:block;
+	padding:0;
+	font:normal 13px/1.2em Arial, Helvetica, sans-serif;
+	letter-spacing:normal;
+}
+      
+     </style>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+   
+
+   
+   
+
+</head>
+<body id="ERMSMTBody">
+<%--<script type="text/javascript" src="Scripts/jquery.confetti.js"></script>--%>
+    <form id="form1" runat="server">
+    <div id="mainDiv" align="center">
+            <table  class="mainLayout">
+                <tr> <%--Header Section--%>
+                    <td colspan="3">
+                        
+                        <table cellpadding="0" cellspacing="0" width="100%">
+                            <tr>
+                                <td class="headMiddle1">
+                                    <div class="logo">
+        <h1><span>&nbsp;&nbsp; We Care</span><small>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</small></h1>
+    </div>
+                                    </td>
+                            </tr>
+                            <tr>
+                                <td class="headMiddle2" align="right">
+                                    <table cellpadding="0" cellspacing="0" style="width: 650px;" >
+                                        <tr>
+                                            <td class="headMiddle2ImgUser">
+                                               </td>
+                                            <td class="headMiddle2ImgDesc">
+                                                <asp:Label ID="lblServiceNo" runat="server" >Mr./Mrs.</asp:Label>
+                                                <asp:Label ID="lblLogInUserName" runat="server"  >User</asp:Label>
+                                            </td>
+                                            <td class="headMiddle2ImgLoc2">
+                                                </td>
+                                            <td class="headMiddle2ImgDesc">
+                                                <asp:Label ID="lblLoginDivision" runat="server"  > Location 2</asp:Label>
+                                            </td>
+                                            <td class="headMiddle2ImgLoc1">
+                                                </td>
+                                            <td class="headMiddle2ImgDesc">
+                                                <asp:Label ID="lblLoginLocation" runat="server"  > Location 1</asp:Label>
+                                            </td>
+                                            <td class="headMiddle2ImgLogOut">
+                                                </td>
+                                                <td class="headMiddle2ImgDesc">
+                                                    <asp:LinkButton ID="lnkBtnLogOut" runat="server" CausesValidation="False" ForeColor="White" 
+                                                       >Log Out</asp:LinkButton>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    </td>
+                            </tr>
+                        </table>
+                        
+                    </td>
+                </tr>
+                <tr> <%--Middle Section--%>
+                    <td class="treeLayout"> <%--Middle Section-->Navigation Area--%>
+                        <table border="0" cellpadding="0" cellspacing="0" width="150px">
+                        <tr>
+                            <td class="topTree">
+                            &nbsp;
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="background-color: #d8d8d9; padding-bottom: 5px; padding-top: 5px;"  width="150px"
+                                >
+                                <uc1:ctrlNavgation ID="ctrlNavgation1" runat="server" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="bottomTree">
+                            &nbsp;
+                                </td>
+                        </tr>
+                    </table>
+                        
+                        </td>
+                    <td class="treeLine"><%--Middle Section-->vertical line--%>
+                        </td>
+                    <td class="contentLayout"><%--Middle Section-->Content Area--%>
+                       
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                       </asp:ContentPlaceHolder>
+                       
+                       </td>
+                </tr>
+                <tr> <%--Footer Section--%>
+                    <td colspan="3" >
+                            <table cellpadding="0"  width="100%" cellspacing="0" id="FootTable" >
+                                <tr>
+                                    <td  class="footMiddle">
+                                        Copyright © Teejay ICT.</td>
+                                </tr>
+                             </table>
+                    </td>
+                </tr>
+            </table>
+        
+        
+    </div>
+    </form>
+   
+    
+   
+</body>
+ <%--New Year Start----------------------------------------%>
+<%--<script type="text/javascript">
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function () {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+
+</script>--%>
+  <%--New Year End----------------------------------------%>
+
+</html>

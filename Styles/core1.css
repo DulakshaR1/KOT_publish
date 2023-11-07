@@ -1,0 +1,78 @@
+
+
+.animate
+{
+	transition: all 0.1s;
+	-webkit-transition: all 0.1s;
+}
+
+.action-button
+{
+	position: relative;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Arial';
+	font-size: 19px;
+	color: #000000;
+	text-decoration: none;	
+	text-align:center;
+	padding: 5px 0px;
+}
+.action-button3
+{
+	position: relative;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Arial';
+	font-size: 19px;
+	color: #FFFfff;
+	text-decoration: none;	
+	text-align:center;
+	padding: 0px 0px;
+}
+.action-button2
+{
+	position: relative;
+    float: left;
+	border-radius: 10px;
+	font-family: 'Arial';
+	font-size: 19px;
+	color: #000000;
+	text-decoration: none;	
+	text-align:center;
+	padding: 5px 0px;
+}
+.blue
+{
+	background-color: #EFEFEF;
+	/*border-bottom: 5px solid #808080;*/
+   
+}
+
+.red
+{
+	background-color: #FE0002;
+	border-bottom: 5px solid #B90002;
+	/*text-shadow: 0px -2px #B90002;*/
+}
+
+.green
+{
+	background-color: #01FF02;
+	border-bottom: 5px solid #1ABA1A;
+	/*text-shadow: 0px -2px #1ABA1A;*/
+}
+
+.yellow
+{
+	background-color: #FFFF01;
+	border-bottom: 5px solid #CBA005;
+	/*text-shadow: 0px -2px #CC6600;*/
+}
+
+.action-button:active
+{
+	transform: translate(0px,5px);
+  -webkit-transform: translate(0px,5px);
+	border-bottom: 1px solid;
+}

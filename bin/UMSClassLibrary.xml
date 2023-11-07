@@ -1,0 +1,82 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UMSClassLibrary
+</name>
+</assembly>
+<members>
+<member name="M:UMSClassLibrary.UMSSystemApplications.SysInfoForDisplay(System.String)">
+	<summary>
+ This function is used to retrieve the physical server name specified by the DB admin
+ </summary>
+	<param name="SystemName">Name of the system (ie: ERMS)</param>
+	<returns>The physical server name of the database or "-" if empty</returns>
+	<remarks>No changes should be made to this function</remarks>
+</member><member name="M:UMSClassLibrary.UMSSystemApplications.AddNewObject(System.String,System.Boolean,System.Int32,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Add an object to the Objects table.
+ </summary>
+	<param name="systemID">System ID</param>
+	<param name="hasParent">If this object has a parent object</param>
+	<param name="parentObjectCode">If there is a parent, what is the ObjectCode</param>
+	<param name="parentName">If there is a parent, what is the parent Object Name</param>
+	<param name="newObjectName">The name of the new object</param>
+	<param name="newObjectFilename">The file name of the new object</param>
+	<param name="newObjectDescription">The description of the new object</param>
+	<returns>Boolean if the new object was created or not</returns>
+	<remarks></remarks>
+</member><member name="M:UMSClassLibrary.UMSSystemApplications.UpdateObjectDetails(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Update Details of an Object
+ </summary>
+	<param name="MainOrSub">Indicate if the Object is a "Main" object or a "Sub" Object</param>
+	<param name="systemID">System ID</param>
+	<param name="ObjectCode">Object Code</param>
+	<param name="ObjectName">Object Name</param>
+	<param name="ObjectFileName">Object File Name</param>
+	<param name="Description">Description</param>
+	<param name="Status">Object Status</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:UMSClassLibrary.UMSSystemApplications.CheckSubObjectsBeforeDeleting(System.String,System.String)">
+	<summary>
+ Function to retrieve all child objects of a particular object
+ </summary>
+	<param name="SystemID">System ID</param>
+	<param name="ObjectCode">Object Code</param>
+	<returns>Returns a "," seperated string of ObjectCodes. result will be "" if there are no child objects for the specified object</returns>
+	<remarks></remarks>
+</member><member name="M:UMSClassLibrary.UMSSystemApplications.DeleteObjectFromSystem(System.String,System.String,System.String,System.String)">
+	<summary>
+ Delete an Object from the System
+ </summary>
+	<param name="SystemID">System ID</param>
+	<param name="ObjectCode">Object Code</param>
+	<param name="ObjectName">Object Name</param>
+	<param name="ObjectFileName">Object File Name</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:UMSClassLibrary.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:UMSClassLibrary.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:UMSClassLibrary.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:UMSClassLibrary.UMSUserInformation.getServiceNumberDetails(System.String)">
+	<summary>
+ Function to retrieve the users Number, Rank and Name. Returns a String array with (number,rank,name)
+ </summary>
+	<param name="ServiceNo">Service Number</param>
+	<returns>returns an array with number,rank,name</returns>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

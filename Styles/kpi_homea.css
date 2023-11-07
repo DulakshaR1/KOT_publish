@@ -1,0 +1,411 @@
+
+
+/************ KPI Style - Common  ***************/
+rounded-corner body
+{
+	line-height: 1.6em;
+	background-color: #404040;
+}
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 11px;
+	
+	text-align: left;
+	border-collapse: collapse;
+}
+#rounded-corner thead th.rounded-company
+{
+	font-weight:bold;
+	font-size: 13px;
+	background: #0082c5 url('../images/table/left.png') left -1px no-repeat;
+}
+#rounded-corner thead th.rounded-q4
+{
+	background: #0082c5 url('../images/table/right.png') right -1px no-repeat;
+}
+
+
+#rounded-corner thead th.SubHeadLeft
+{
+	font-weight:bold;
+	font-size: 13px;
+	background: #0082c5 ;
+}
+#rounded-corner thead th.SubHeadMiddle
+{
+	font-weight:bold;
+	font-size: 13px;
+	background: #0082c5 ;
+	text-align:center;
+}
+
+#rounded-corner thead th.SubHeadRight
+{
+	font-weight:bold;
+	font-size: 13px;
+	background: #0082c5 url('../images/table/right.png') right -1px no-repeat;
+	text-align:center;
+}
+
+#rounded-corner  th
+{
+	padding: 3px;
+	padding-left: 7px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #fff;
+	background: #0082c5;
+	text-align:left;
+}
+#rounded-corner td
+{
+	padding: 2px;
+	background: #f5f5f5;
+	border-top: 1px solid #fff;
+	color: #000000;
+	/*border-left: 1px solid #fff;*/
+	border-bottom: 1px solid #a1cce2;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+#rounded-corner tfoot td.rounded-foot-left
+{
+	font-weight:bold;
+	padding-left: 7px;
+	font-size: 12px;
+	color: #000000;
+	border-bottom: 0px solid #6678b1;
+	background: #ffc807 url('../images/table/botleft.png') left bottom no-repeat;
+
+}
+
+#rounded-corner tfoot td.rounded-foot-middle
+{
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #ff3b14;
+	background: #ffc807 ;
+
+}
+
+#rounded-corner tfoot td.rounded-foot-right
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #ff3b14;
+	/*text-shadow:1px 1px 1px #fff;
+	color: #000;*/
+	background: #ffc807 url('../images/table/botright.png') right bottom no-repeat;
+	
+}
+
+
+#rounded-corner tbody tr:hover td
+{
+	background: #dddddd;
+}
+
+
+/************ KPI Style - Plant/Group Tables  ***************/
+
+#rounded-corner tfoot td.rounded-foot-left-minus
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #ff3b14;
+	background: #ffc807 url('../images/table/botleft.png') left bottom no-repeat;
+}
+
+#rounded-corner tfoot td.rounded-foot-right-minus
+{
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #ff3b14;
+	background: #ffc807 url('../images/table/botright.png') right bottom no-repeat;
+}
+#rounded-corner tfoot td.rounded-foot-left-plus
+{
+	font-weight:bold;
+	padding-left: 7px;
+	font-size: 13px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	background: #ffc807 url('../images/table/botleft.png') left bottom no-repeat;
+}
+
+
+#rounded-corner tfoot td.rounded-foot-right-plus
+{
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	background: #ffc807 url('../images/table/botright.png') right bottom no-repeat;
+	
+}
+
+/*----------------------------------------------------------------------*/
+
+.tblStyle
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 11px;
+	
+	text-align: left;
+	border-collapse: collapse;
+}
+
+.LeftHeadTD
+{
+	font-weight:bold;
+	font-size: 13px;
+	background: #0082c5 url('../images/table/left.png') left -1px no-repeat;
+	padding: 3px;
+	padding-left: 7px;
+	color: #fff;
+}
+
+.LeftFootTD_Plus
+{
+	font-weight:bold;
+	padding-left: 7px;
+	font-size: 12px;
+	color: #000000;
+	border-bottom: 0px solid #6678b1;
+	background: #ffc807 url('../images/table/botleft.png') left bottom no-repeat;
+	
+
+}
+
+.LeftFootTD_Plus_FP
+{
+	font-weight:bold;
+	padding-left: 2px;
+	font-size: 12px;
+	color: #000000;
+	border-bottom: 0px solid #6678b1;
+	background: #ffc807 url('../images/table/botleft.png') left bottom no-repeat;
+	
+
+}
+.RightFootTD_Plus
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	background: #ffc807 url('../images/table/botright.png') right bottom no-repeat;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align:right;
+}
+
+.RightFootTD_Plus_SP
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	background: #ffc807 url('../images/table/botright.png') right bottom no-repeat;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align:right;
+}
+.RightFoot2TD_Plus
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	background: #ffc807 url('../images/table/botright.png') right bottom no-repeat;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align:right;
+}
+.middleFootTD_Plus
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align:right;
+	background-color:#ffc807;
+	border-right: 1px solid #a1cce2;
+	border-left: 1px solid #a1cce2;
+}
+.middleFootTD_Plus_SP
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align:right;
+	background-color:#ffc807;
+	border-right: 1px solid #a1cce2;
+	border-left: 1px solid #a1cce2;
+}
+.middleFootTD_Plus_FP
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	padding-left: 1px;
+	padding-right: 1px;
+	text-align:right;
+	background-color:#ffc807;
+	border-right: 1px solid #a1cce2;
+	border-bottom: 1px solid #a1cce2;
+}
+.leftFoot2TD_Plus_FP
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #000000;
+	padding-left: 6px;
+	padding-right: 0px;
+	text-align:left;
+	background-color:#ffc807;
+	border-right: 1px solid #a1cce2;
+	border-bottom: 1px solid #a1cce2;
+}
+.LeftFootTD_Minus
+{
+	font-weight:bold;
+	padding-left: 7px;
+	font-size: 12px;
+	color: #ff3b14;
+	border-bottom: 0px solid #6678b1;
+	background: #ffc807 url('../images/table/botleft.png') left bottom no-repeat;
+	
+
+}
+
+.RightFootTD_Minus
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #ff3b14;
+	background: #ffc807 url('../images/table/botright.png') right bottom no-repeat;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align:right;
+}
+
+.middleFootTD_Minus
+{
+	
+	font-weight:bold;
+	font-size: 12px;
+	border-bottom: 0px solid #600000;
+	color: #ff3b14;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align:right;
+	background-color:#ffc807;
+	border-right: 1px solid #a1cce2;
+	border-left: 1px solid #a1cce2;
+}
+
+
+.rightHeadTD
+{
+	background: #0082c5 url('../images/table/right.png') right -1px no-repeat;
+	
+}
+
+.LeftTD
+{
+	padding: 2px;
+	background: #f5f5f5;
+	border-top: 1px solid #fff;
+	color: #3a3a3a;
+	border-bottom: 1px solid #a1cce2;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align:left;
+}
+.LeftTD_FP
+{
+	padding: 2px;
+	background: #f5f5f5;
+	border-top: 1px solid #fff;
+	color: #3a3a3a;
+	border-bottom: 1px solid #a1cce2;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align:left;
+	width:50px;
+}
+.middleTD
+{
+	padding: 2px;
+	background: #f5f5f5;
+	border-top: 1px solid #fff;
+	color: #3a3a3a;
+	border-bottom: 1px solid #a1cce2;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align:right;
+	border-right: 1px solid #a1cce2;
+	border-left: 1px solid #a1cce2;
+}
+.middleTD_FP
+{
+	padding: 2px;
+	background: #f5f5f5;
+	border-top: 1px solid #fff;
+	color: #3a3a3a;
+	border-bottom: 1px solid #a1cce2;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align:right;
+	border-right: 1px solid #a1cce2;
+	border-left: 1px solid #a1cce2;
+}
+
+
+.rightTD
+{
+	padding: 2px;
+	background: #f5f5f5;
+	border-top: 1px solid #fff;
+	color: #3a3a3a;
+	border-bottom: 1px solid #a1cce2;
+	padding-left: 6px;
+	padding-right: 6px;
+	text-align:right;
+}
+
+.rightTD_FP
+{
+	padding: 2px;
+	background: #f5f5f5;
+	border-top: 1px solid #fff;
+	color: #3a3a3a;
+	border-bottom: 1px solid #a1cce2;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align:right;
+}

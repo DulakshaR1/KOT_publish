@@ -1,0 +1,206 @@
+﻿body   
+{
+    background: #f0f7f7;
+    margin-left:0px;
+    margin-top:0px; 
+    margin-right :0px; 
+}
+
+.mainDiv
+{
+    background: #f0f7f7;  
+}
+
+.mainLayout
+{
+    width:100%;
+    height:100%;
+    border:0px;
+    padding:0px;   
+}
+
+.treeLayout
+{
+    width:150px;
+    padding-top: 5px; 
+    padding-left: 5px;
+    vertical-align:top;
+    text-align:left;
+}
+
+.contentLayout
+{
+    vertical-align:top;
+    text-align:left;
+    width:1150px; 
+    max-width:1100px;
+}
+
+.treeLine
+{
+     background-image: url('../Images/MasterPage/treeLine.png');
+     background-repeat:no-repeat;
+     vertical-align:top; 
+     width: 1px;
+     height:100%;
+}
+
+.spaceLine
+{
+     width: 14px;
+     max-width: 1100px;
+     vertical-align:top;  
+      
+}
+
+.headMiddle1
+{
+    background-image: url('../Images/MasterPage/headMiddle1.png');
+    height: 55px;
+}
+.topTree
+{
+    background-image: url('../Images/MasterPage/topTree.png');
+   background-size:150px 17px;
+    background-repeat:no-repeat ; 
+}
+.bottomTree
+{
+    background-image: url('../Images/MasterPage/BottomTree.png');
+    /*background-size: 100% 100%;*/
+    background-size:150px 17px;
+    background-repeat:no-repeat ; 
+}
+
+ 
+.headVenderLogo
+{
+    width: 116px;
+    height: 75px;
+    background-image: url('../Images/MasterPage/headVenderLogo.png');
+    background-repeat:no-repeat ;           
+}
+
+.headLeftCorner
+{
+   width: 11px;
+   height: 120px;
+   background-image: url('../Images/MasterPage/headLeftCorner.png');
+   background-repeat:no-repeat;
+}
+
+.headRightCorner
+{
+    width: 11px;
+    height: 120px;
+    background-image: url('../Images/MasterPage/headRightCorner.png');
+    background-repeat:no-repeat;
+}
+
+.headLogo
+{
+    width: 180px;
+    height: 120px;
+    background-image: url('../Images/MasterPage/headLogo.png');
+}
+           
+.headMiddle2
+{
+	background-image: url('../Images/MasterPage/headMiddle2.gif'); 
+	height:25px;
+}
+ .headMiddle2Content {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #d2f2ff;
+}    
+
+.headMiddle2ImgUser
+{
+    width: 26px;
+    height: 25px;
+    background-image: url('../Images/MasterPage/user.png'); 
+    background-repeat:no-repeat; 
+}
+.headMiddle2ImgLoc1
+{
+    width: 26px;
+    height: 25px;
+    background-image: url('../Images/MasterPage/location.png'); 
+    background-repeat:no-repeat; 
+}
+.headMiddle2ImgLoc2
+{
+    width: 26px;
+    height: 25px;
+    background-image: url('../Images/MasterPage/office.png'); 
+    background-repeat:no-repeat; 
+}
+.headMiddle2ImgLogOut
+{
+    width: 26px;
+    height: 25px;
+    background-image: url('../Images/MasterPage/logoff.png'); 
+    background-repeat:no-repeat; 
+}
+
+.headMiddle2ImgDesc
+ {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-weight:bold;
+	color: #ffffff;
+	text-align:left;
+ }
+             
+.footRight
+{
+    width:11px;
+    height:11px;  
+    background-image: url('../Images/MasterPage/FootRight.png'); 
+    background-repeat:no-repeat;           
+}
+           
+.footLeft
+{
+    width:11px;
+    height:11px; 
+    background-image: url('../Images/MasterPage/FootLeft.png'); 
+    background-repeat:no-repeat;
+}
+           
+.footMiddle
+{
+    background-image: url('../Images/MasterPage/FootMiddle.png') ;    
+    height:11px;             
+    background-repeat:repeat;    
+    color: #FFFFFF;
+    font-size:8px;
+    font-family:"Verdana",Times New Roman;
+    text-align:center;
+}
+           
+   /*********************************************Tree Navigation*****************************/
+.navigationParent { 
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.navigationChild { /*tree Menu's sub headings definition*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+
+
+.SVBackImg
+{
+     background-image: url('../Images/MasterPage/BackgroundPic.jpg');
+     background-repeat:no-repeat;
+     vertical-align:top; 
+     width: 100%;
+     height:100%;
+}

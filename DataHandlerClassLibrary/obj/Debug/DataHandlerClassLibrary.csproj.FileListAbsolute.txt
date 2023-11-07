@@ -1,0 +1,40 @@
+D:\POS\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.dll
+D:\POS\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.pdb
+D:\POS\DataHandlerClassLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\POS\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.dll
+D:\POS\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.pdb
+E:\WeCare\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.dll
+E:\WeCare\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.pdb
+E:\WeCare\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.dll
+E:\WeCare\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.pdb
+C:\WeCare\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.dll
+C:\WeCare\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.pdb
+C:\WeCare\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.dll
+C:\WeCare\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.pdb
+D:\Office Projeccts\WeCare_New\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.dll
+D:\Office Projeccts\WeCare_New\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.pdb
+D:\Office Projeccts\WeCare_New\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.dll
+D:\Office Projeccts\WeCare_New\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.pdb
+D:\Office Projeccts\WeCare_Dev\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.dll
+D:\Office Projeccts\WeCare_Dev\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.pdb
+D:\Office Projeccts\WeCare_Dev\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.dll
+D:\Office Projeccts\WeCare_Dev\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.pdb
+D:\WeCare_PRD\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.dll
+D:\WeCare_PRD\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.pdb
+D:\WeCare_PRD\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.dll
+D:\WeCare_PRD\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.pdb
+D:\My Projects\Projects\WeCare_PRD\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.dll
+D:\My Projects\Projects\WeCare_PRD\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.pdb
+D:\My Projects\Projects\WeCare_PRD\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.dll
+D:\My Projects\Projects\WeCare_PRD\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.pdb
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.dll
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\bin\Debug\DataHandlerClassLibrary.pdb
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.dll
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.pdb
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\bin\Debug\mscorlib.dll
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\bin\Debug\normidna.nlp
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\bin\Debug\normnfc.nlp
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\bin\Debug\normnfd.nlp
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\bin\Debug\normnfkc.nlp
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\bin\Debug\normnfkd.nlp
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\DataHandlerClassLibrary\obj\Debug\DataHandlerClassLibrary.csprojResolveAssemblyReference.cache

@@ -1,0 +1,154 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+InputValidationClassLibrary
+</name>
+</assembly>
+<members>
+<member name="M:InputValidationClassLibrary.GeneralValidation.ValidateText(System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ Validates the input for text.
+ Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </summary>
+	<param name="inputFieldLabel">Label/Name of the input field</param>
+	<param name="inputValue">Text entered by the user.</param>
+	<param name="minLength">Minimum length allowed (specify 0 if not required).</param>
+	<param name="maxLength">Maximum length allowed (specify 0 if not required).</param>
+	<param name="mandatory">Boolean indication if this value is mandatory or not</param>
+	<returns>Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:InputValidationClassLibrary.GeneralValidation.ValidateCharStringOnly(System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ Validates input as a char only string value.
+ Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </summary>
+	<param name="inputFieldLabel">Label/Name of the input field</param>
+	<param name="inputValue">Text entered by the user.</param>
+	<param name="minLength">Minimum length allowed (specify 0 if not required).</param>
+	<param name="maxLength">Maximum length allowed (specify 0 if not required).</param>
+	<param name="mandatory">Boolean indication if this value is mandatory or not</param>
+	<returns>Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:InputValidationClassLibrary.GeneralValidation.ValidateNumericOnly(System.String,System.String,System.Int32,System.Int32,System.Boolean)">
+	<summary>
+ Validates input as numeric only.
+ Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </summary>
+	<param name="inputFieldLabel">Label/Name of the input field</param>
+	<param name="inputValue">Text entered by the user.</param>
+	<param name="minLength">Minimum length allowed (specify 0 if not required).</param>
+	<param name="maxLength">Maximum length allowed (specify 0 if not required).</param>
+	<param name="mandatory">Boolean indication if this value is mandatory or not</param>
+	<returns>Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:InputValidationClassLibrary.GeneralValidation.ValidateDoubleOnly(System.String,System.String,System.Boolean,System.Boolean,System.Int32,System.Boolean)">
+	<summary>
+ Validates input as numeric only.
+ Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </summary>
+	<param name="inputFieldLabel">Label/Name of the input field.</param>
+	<param name="inputValue">Text entered by the user.</param>
+	<param name="allowNegativeValues">Boolean indication if the input value can be negative.</param>
+	<param name="allowPositiveValues">Boolean indication if the input value can be positive.</param>
+	<param name="noOfDecimalPlaces">Number of decimal places allowed. specify 99 if there is no limit.</param>
+	<param name="mandatory">Boolean indication if this value is mandatory or not</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:InputValidationClassLibrary.GeneralValidation.ValidateVoteID(System.String,System.String,System.Boolean)">
+	<summary>
+ Validates input as a Vote ID.
+ Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </summary>
+	<param name="inputFieldLabel">Label/Name of the input field</param>
+	<param name="inputValue">Text entered by the user.</param>
+	<param name="mandatory">Boolean indication if this value is mandatory or not</param>
+	<returns>Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:InputValidationClassLibrary.GeneralValidation.ValidateEmail(System.String,System.String,System.Int32,System.Boolean)">
+	<summary>
+ Validates input as an email address.
+ Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </summary>
+	<param name="inputFieldLabel">Label/Name of the input field</param>
+	<param name="inputValue">Text entered by the user.</param>
+	<param name="maxLength">Maximum length allowed (specify 0 if not required).</param>
+	<param name="mandatory">Boolean indication if this value is mandatory or not</param>
+	<returns>Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:InputValidationClassLibrary.GeneralValidation.ValidateDate(System.String,System.String,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Validates input as date.
+ Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </summary>
+	<param name="inputFieldLabel">Label/Name of the input field</param>
+	<param name="inputValue">Username entered by the user.</param>
+	<param name="dateBeforeToday">Boolean indication this date should be before today</param>
+	<param name="dateAfterToday">Boolean indication this date should be after today</param>
+	<param name="mandatory">Boolean indication if this value is mandatory or not</param>
+	<returns>Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </returns>
+	<remarks></remarks>
+</member><member name="M:InputValidationClassLibrary.GeneralValidation.ValidateNIC(System.String,System.String,System.Boolean)">
+	<summary>
+ Validates input as SL National Identity Card number (nnnnnnnnnnX).
+ Default length is 10 characters ehich include nine numeric and one char.
+ Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </summary>
+	<param name="inputFieldLabel">Label/Name of the input field</param>
+	<param name="inputValue">Text entered by the user.</param>
+	<param name="mandatory">Boolean indication if this value is mandatory or not</param>
+	<returns>Returns a string with validation result.
+ The returning string will have "True" only if all is validated successfully.
+ If validation fails, the return string will include the inputFieldLabel also along with the result.
+ </returns>
+	<remarks></remarks>
+</member><member name="T:InputValidationClassLibrary.GeneralValidation">
+	<summary>
+ --------Program Header--------
+Programmer's ID        : LGT008
+Programmer's Name      : Dilshan Pandithasekera
+Program Date           : 23/05/2008
+Program Version        : 2
+Purpose of the Program : Public functions for server side input validation
+File/DB access         : 
+Caution                : This class may be used by some or all other programs
+------------------------------
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

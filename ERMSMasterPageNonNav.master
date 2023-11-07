@@ -1,0 +1,52 @@
+<%@ master language="VB" inherits="ERMSMasterPageNonNav, App_Web_0syuegnt" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<%  Response.Write(Session.Contents("CISLGroupInfoDisplay"))%>
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>TJL</title>
+    <link href="styles/styher.css" rel="stylesheet" type="text/css" />
+</head>
+<body bgcolor="#FFFFFF" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form id="form1" runat="server">
+<div align="center">
+<table id="Table_01" style="width: 1179px;" border="0" align="center" cellpadding="0" cellspacing="0">
+    <tr>
+        <td colspan="12" valign="top" align="right" 
+             style="background-image: url('images/MPIcon/banner.jpg'); padding-right: 5px; height: 120px;">
+            &nbsp;</td>
+    </tr>
+    
+	<tr>
+   <td valign="top" align="left" style="width: 250px; height: 416px;">
+
+              
+            
+            </td>
+   <td colspan="11" valign="top" style="width: 80%; height: 416px;"><table width="100%" align="left" border="0" cellspacing="0" cellpadding="0" >
+      <tr>
+        <td align="left" valign="top">
+        <div>
+        
+                <asp:ScriptManager ID="smERMSMasterTemplateNonNav" runat="server">
+            </asp:ScriptManager>            
+            <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+            </asp:contentplaceholder>
+            </div>
+        </td>
+      </tr>
+      
+    </table>
+    </td>
+     </tr>
+  <tr>
+   <td colspan="12" style="background-image: url('images/MPIcon/footer.png'); width:1180px; height: 26px;"></td>
+  </tr>
+</table>
+</div>
+</form>
+</body>
+</html>
+
+         

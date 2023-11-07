@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+TraceLogsClassLibrary
+</name>
+</assembly>
+<members>
+<member name="M:TraceLogsClassLibrary.TraceLog.#ctor(System.String)">
+	<summary>
+ Initialize Trace Log Object.
+ </summary>
+	<param name="applicationPath">Absolute path of the TraceLog folder</param>
+	<remarks></remarks>
+</member><member name="M:TraceLogsClassLibrary.TraceLog.WriteEventLogEntry(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Writes a log entry for an event/action.
+ </summary>
+	<param name="applicationName">Name of the application (project)</param>
+	<param name="programName">Name of the program (class)</param>
+	<param name="methodName">Name of the method from which the event was fired (function/subroutine)</param>
+	<param name="eventName">Name of the event/action</param>
+	<param name="eventStatus">Status of the event/action</param>
+	<param name="eventComments">Comments (generally used to give reason if the event/action fails)</param>
+	<param name="userName">Username as stored in the UMS</param>
+	<param name="ip_Address">IP address of the user</param>
+	<param name="sessionID">Session ID</param>
+	<remarks></remarks>
+</member><member name="M:TraceLogsClassLibrary.TraceLog.WriteErrorLogEntry(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ Writes a log entry for system errors/exceptions.
+ </summary>
+	<param name="applicationName">Name of the application (project)</param>
+	<param name="programName">Name of the program (class)</param>
+	<param name="methodName">Name of the method from which the event was fired (function/subroutine)</param>
+	<param name="errMsg">Error Message</param>
+	<param name="stackTrace">Stack trace of the error</param>
+	<param name="userName">Username as stored in the UMS</param>
+	<param name="ip_Address">IP address of the user</param>
+	<param name="sessionID">Session ID</param>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

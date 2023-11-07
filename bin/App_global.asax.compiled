@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<preserve resultType="8" virtualPath="/KOT Source/global.asax" hash="fffffffff4fb8489" filehash="29c407bee10f" flags="150000" assembly="App_global.asax" type="ASP.global_asax">
+    <filedeps>
+        <filedep name="/KOT Source/global.asax" />
+    </filedeps>
+</preserve>

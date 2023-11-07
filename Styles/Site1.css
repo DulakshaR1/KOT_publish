@@ -1,0 +1,277 @@
+﻿.smallBody {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+
+.tabActive
+{
+	height: 22px;
+	width: 148px;
+	background-image: url(../images/Tab/tab_active.gif);
+	background-repeat:no-repeat;
+   	text-align: center;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #ffffff;	
+	background-color: transparent;
+	border-width:0px;
+	
+}
+.tabInactive{
+	height: 22px;
+	width: 148px;
+	background-image: url(../images/Tab/tab_inactive.gif);
+	background-repeat:no-repeat;
+	text-align: center;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ffffff;	
+	background-color: transparent;
+	border-width:0px;
+	}
+	
+.btnStyle {/*Styles for button*/
+    border-style: solid;
+    border-color: inherit;
+    border-width: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #ffffff;
+	background-color: #515151;
+    }
+    
+    .tabBottomBar
+    {/*use with panel tool*/
+	height: 13px;
+	width: 820px;
+	background-color: #000099;
+	border-width: 0px;
+    }
+    
+    .head1 {/*heading Large*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+}
+.head2 {/*heading Normal*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-weight: bold;
+}
+.head3 {/*heading Small*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+	font-weight: bold;
+}
+
+.smallBodyRed {/*message unsuccessful*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FF0000;
+	font-weight:bold;
+}
+
+.smallBodyGreen{/*Message Successful*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #009900;	
+	font-weight:bold;
+}
+
+.normalBody {/*for UMS Home Page*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+}
+/*********************************************Grid View Sytle *****************************/
+/* Grid view Style */
+
+
+/* table level rules */
+.gridView
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:11px;
+	border: solid 1px #7f7f7f;
+	border-bottom-width:1px;
+    border-collapse:collapse;
+    
+    width:100%
+}
+
+.GVFixedHeader { position:relative;
+                 top:expression(this.parentNode.parentNode.parentNode.scrollTop-16);
+                 }
+.GVFixedFooter { position:relative;
+                 bottom:expression(getScrollBottom(this.parentNode.parentNode.parentNode.parentNode));}
+
+
+/* header column rules */
+.gridView th 
+{
+    background: url(../images/img/sprite.png) repeat-x 0px 0px;
+    border-color: #989898 #989898 #989898 #989898;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+   
+    padding: 2px 5px 2px 5px;
+    vertical-align: bottom;
+    text-align:center;
+    font-weight:bold;
+}  
+
+.gridView th a
+{
+	
+    font-weight: bold;
+	text-decoration: none;
+	display: block;
+    padding-right: 10px;
+}
+
+/* data cell and data row rules */
+.gridView td 
+{
+	
+    padding: 1px 5px 1px 5px;
+    border-bottom: solid 1px #BBD9EE;
+    height:10px;
+}
+
+.gridView .altrow
+{
+    background-color: #EBF4FA;
+} 
+
+
+.gridView .rownum
+{
+	width:7px;
+    text-align:right;
+    padding-left:2px;
+    font-weight:bold;
+    
+}
+
+/* group header */
+.gridView .group span
+{
+	padding:2px 0px 2px 0px;
+	
+	text-align:left;
+	font-size:10px;
+	font-weight:bold;
+	
+} 
+.gridView tr.row
+{
+    
+    background-color: #FFFFFF;
+}
+
+.gridView tr.row:hover
+{	    
+    background-color:#101010;
+    color:#a0dbea;
+}
+
+
+
+
+
+/*********************************************ENd Grid View Sytle *****************************/
+.dropDown {
+	border-left: 1px solid #AAAAAA;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 1px solid #CCCCCC;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	border-radius: 3px 3px 3px 3px;
+    color: #494949;
+    margin-bottom: 0px;
+    height:20px;
+}
+/*
+.dropDown {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	border:1px;
+	border-style:solid;
+	border-color:#c9c9c9;
+	font-size: 11px;
+
+}
+
+.txtMandatory {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	background-color: #ffffe1;
+}
+
+.txtBox {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	border:1px;
+	border-style:solid;
+	border-color:#c9c9c9;
+	font-size: 11px;
+	background-image: url(../Images/txtBack.jpg);
+	padding-left:2px;
+	text-transform:inherit;
+	height:20px;
+}
+*/
+.txtMandatory {
+    background: url("../Images/bg-input.png") repeat-x scroll 0 0 #FFFFFF;
+    border-color: #e05757 #e05757 #e05757 #e05757;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #494949;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    outline: 0 none;
+    padding: 3px;
+}
+
+.txtBox {
+    background: url("../Images/bg-input.png") repeat-x scroll 0 0 #FFFFFF;
+    border-color: #AAAAAA #CCCCCC #CCCCCC #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #494949;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    outline: 0 none;
+    padding: 3px;
+}
+.navigationChild { /*tree Menu's sub headings definition*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #000000;
+}
+
+
+.txtlabel {
+   
+    border-color: #AAAAAA #CCCCCC #CCCCCC #AAAAAA;
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    color: #494949;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    outline: 0 none;
+    padding: 3px;
+    height:15px;
+}

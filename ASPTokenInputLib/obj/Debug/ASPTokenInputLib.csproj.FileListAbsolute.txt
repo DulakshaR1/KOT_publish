@@ -1,0 +1,10 @@
+D:\Temp\ASPTokenInput\ASPTokenInputLib\bin\Debug\ASPTokenInputLib.dll
+D:\Temp\ASPTokenInput\ASPTokenInputLib\bin\Debug\ASPTokenInputLib.pdb
+D:\Temp\ASPTokenInput\ASPTokenInputLib\obj\Debug\ResolveAssemblyReference.cache
+D:\Temp\ASPTokenInput\ASPTokenInputLib\obj\Debug\ASPTokenInputLib.dll
+D:\Temp\ASPTokenInput\ASPTokenInputLib\obj\Debug\ASPTokenInputLib.pdb
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\ASPTokenInputLib\obj\Debug\ASPTokenInputLib.dll
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\ASPTokenInputLib\obj\Debug\ASPTokenInputLib.pdb
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\ASPTokenInputLib\bin\Debug\ASPTokenInputLib.dll
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\ASPTokenInputLib\bin\Debug\ASPTokenInputLib.pdb
+C:\work\projects\TJ KOT System_Requested By Brandix\TJ KOT System\KOT Source\ASPTokenInputLib\obj\Debug\ASPTokenInputLib.csprojResolveAssemblyReference.cache
